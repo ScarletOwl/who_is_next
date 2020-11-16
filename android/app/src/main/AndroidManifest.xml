@@ -8,6 +8,7 @@
     <application
         android:name="io.flutter.app.FlutterApplication"
         android:label="who_is_next"
+        android:requestLegacyExternalStorage="true"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
